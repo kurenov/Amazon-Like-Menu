@@ -1,0 +1,171 @@
+<!-- 
+ * AMAZON like menu
+ * by Olzhas Kurenov
+ * 
+-->
+<div class="logo-box-bottom">
+  <div class="departments-text" onclick="toggleDepartments()">
+    <span>Shop By Department <i class="fa fa-angle-down fa-1x"></i> </span>
+  </div>
+  <div id="departments-box" class="departments-box" style="display: block;">
+    <i class="departments-arrow fa fa-caret-up"></i>
+    <div class="departments-left-box">
+      <ul>
+        <li data-boxid="cell-phones" onmouseover="showCategoryContent(this)">Cell Phones</li>
+        <li data-boxid="tablets" onmouseover="showCategoryContent(this)">Tablets</li>
+        <li data-boxid="computers" onmouseover="showCategoryContent(this)">Computers</li>
+        <li data-boxid="under-construction" onmouseover="showCategoryContent(this)">Cameras</li>
+        <li data-boxid="under-construction" onmouseover="showCategoryContent(this)">RC toys</li>
+        <li data-boxid="under-construction" onmouseover="showCategoryContent(this)">Automotive</li>
+        <li data-boxid="under-construction" onmouseover="showCategoryContent(this)">Home &amp; Garden</li>
+        <li data-boxid="under-construction" onmouseover="showCategoryContent(this)">Sports &amp; Outdoors</li>
+        <li data-boxid="under-construction" onmouseover="showCategoryContent(this)">Lab &amp; Scientific</li>
+        <li data-boxid="under-construction" onmouseover="showCategoryContent(this)">3D Printers</li>
+      </ul>
+    </div>
+
+    <div class="departments-right-box" id="departments-right-box">
+      <div id="cell-phones" class="departments-right-box-content">
+        <ul class="departments-content-left half-width floatleft">
+          <li><h3 class="coral">Brands</h3></li>
+          <li>
+            <a href="javascript: void(0)">Apple</a> 
+            <p>iPhone 5, 5s, 6, 6plus</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Blackberry</a> 
+            <p>Classic, Leap, Passport, Priv</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Google</a> 
+            <p>Nexus 5X, 6P</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Lenovo</a> 
+            <p>s550, s770, s960</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Motorola</a> 
+            <p>Razor V10</p>
+          </li>
+        </ul>
+        <ul class="departments-content-right floatleft">
+          <li><h3 class="coral">Accessories</h3></li>
+          <li><a href="javascript: void(0)">Cases</a></li>
+          <li><a href="javascript: void(0)">Chargers</a></li>
+          <li><a href="javascript: void(0)">Headsets</a></li>
+          <li><a href="javascript: void(0)">Power Banks</a></li>
+          <li><a href="javascript: void(0)">Screen Protectors</a></li>
+          <li><a href="javascript: void(0)">Selfie Sticks</a></li>
+        </ul>
+      </div>
+
+      <div id="tablets" class="departments-right-box-content">
+        <ul class="departments-content-left half-width floatleft">
+          <li><h3 class="coral">Brands</h3></li>
+          <li>
+            <a href="javascript: void(0)">Apple</a> 
+            <p>iPad Air, Pro</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Asus</a> 
+            <p>Zen Pad, Transformer, Vivo Pad</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Google</a> 
+            <p>Nexus 7, 10</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Lenovo</a> 
+            <p>Yoga, MIIX, Tab</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Microsoft</a> 
+            <p>Surface</p>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Samsung</a> 
+            <p>Note, Tab</p>
+          </li>
+        </ul>
+        <ul class="departments-content-right floatleft">
+          <li><h3 class="coral">Accessories</h3></li>
+          <li><a href="javascript: void(0)">Cases</a></li>
+          <li><a href="javascript: void(0)">Chargers</a></li>
+          <li><a href="javascript: void(0)">Headsets</a></li>
+          <li><a href="javascript: void(0)">Power Banks</a></li>
+          <!--        <li><a href="javascript: void(0)">Screen Protectors</a></li>
+                  <li><a href="javascript: void(0)">Selfie Sticks</a></li>
+                  <li><a href="javascript: void(0)">Signal Boosters</a></li>
+                  <li><a href="javascript: void(0)">Sim Cards</a></li>-->
+        </ul>
+      </div>
+
+      <div id="computers" class="departments-right-box-content">
+        <ul class="departments-content-left third-width floatleft">
+          <li><h3 class="coral">Types</h3></li>
+          <li>
+            <a href="javascript: void(0)">Transformers</a> 
+          </li>
+          <li>
+            <a href="javascript: void(0)">Laptops</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">All in One</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Desktop</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Servers</a>
+          </li>
+          <li><h3 class="coral">Brands</h3></li>
+          <li>
+            <a href="javascript: void(0)">Apple</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Asus</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Dell</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">IBM</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">HP</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Lenovo</a>
+          </li>
+          <li>
+            <a href="javascript: void(0)">Microsoft</a>
+          </li>
+          <!--        <li>
+                    <a href="javascript: void(0)">Samsung</a>
+                  </li>-->
+        </ul>
+        <ul class="departments-content-right floatleft">
+          <li><h3 class="coral">Accessories</h3></li>
+          <li><a href="javascript: void(0)">Cases</a></li>
+          <li><a href="javascript: void(0)">Chargers</a></li>
+          <li><a href="javascript: void(0)">Headsets</a></li>
+          <li><a href="javascript: void(0)">Power Banks</a></li>
+          <li><a href="javascript: void(0)">Screen Protectors</a></li>
+          <li><a href="javascript: void(0)">Selfie Sticks</a></li>
+          <li><a href="javascript: void(0)">Signal Boosters</a></li>
+          <!--<li><a href="javascript: void(0)">Sim Cards</a></li>-->
+        </ul>
+      </div>
+
+
+      <div id="under-construction" class="departments-right-box-content">
+        <img src="/images/under-constr-coming-soon.png">
+      </div>
+    </div>
+
+  </div>
+
+  <div id="veil" onmouseover="hideRightCategoryBox()">
+  </div>
+</div>
